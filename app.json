@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "adeverinte-app",
+    "slug": "adeverinte-app",
+    "owner": "sarah7",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sarah7.adeverinteapp",
+      "googleServicesFile": "./ios/GoogleService-Info.plist",
+      "googleSignIn": {
+        "reservedClientId": "com.googleusercontent.apps.999827602773-8e72c5q9qdnp4ef76jgfm7kv5925stt9" 
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.sarah7.adeverinteapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b652ee0f-81b9-4537-85b3-5ceed4322c0c"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/b652ee0f-81b9-4537-85b3-5ceed4322c0c"
+    }
+  }
+}
